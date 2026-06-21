@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# media hosted on YouTube; dataset on Google Drive
+*.mp4
+*.gif
+dataset.zip
+.env

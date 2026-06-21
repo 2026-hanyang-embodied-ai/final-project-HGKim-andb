@@ -1,0 +1,6 @@
+metric,value,note
+always-fast ADE,3.76,
+always-slow ADE,3.68,
+oracle per-frame mode ADE,2.93,-22% vs fast
+disagreement -> 'slow helps' (AUROC/AUPRC),0.466,AUPRC 0.283 (base 0.31)
+disagreement -> 'fast fails' (AUROC/AUPRC),0.576,AUPRC 0.225 (base 0.20)

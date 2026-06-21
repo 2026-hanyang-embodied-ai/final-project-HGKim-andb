@@ -1,0 +1,7 @@
+set,detector,fail_pct,AUROC,AUPRC
+SparseDrive,fused,5,0.576±0.049,0.070±0.014
+SparseDrive,fused,10,0.614±0.028,0.166±0.051
+SparseDrive,fused,20,0.619±0.027,0.284±0.047
+DiffusionDrive,fused,5,0.618±0.031,0.099±0.015
+DiffusionDrive,fused,10,0.603±0.034,0.180±0.036
+DiffusionDrive,fused,20,0.613±0.023,0.295±0.028

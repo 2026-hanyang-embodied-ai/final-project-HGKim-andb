@@ -1,0 +1,10 @@
+signal,set,n,label_def,AUROC,AUPRC
+VLM-ensemble disagreement,"nuScenes (DriveLM, 150sc/3908fr)",3908,VLM-mean ADE top10%,0.798,0.375
+SparseDrive native (margin),nuScenes val (150sc/6019fr),6019,SD ADE top10%,0.551,0.107
+SparseDrive native (entropy),nuScenes val (150sc/6019fr),6019,SD ADE top10%,0.546,0.114
+SparseDrive mode-spread (intra-disagreement),nuScenes val (150sc/6019fr),6019,SD ADE top10%,0.528,0.128
+DiffusionDrive native (margin),nuScenes val (150sc/6019fr),6019,DD ADE top10%,0.606,0.136
+DiffusionDrive mode-spread,nuScenes val (150sc/6019fr),6019,DD ADE top10%,0.506,0.100
+VAD-Base native,nuScenes val,-,N/A,NA,NA
+Driving-model disagreement (6 models),Waymo anchor479 (473fr),473,rap ADE top10%,0.584,0.153
+VLM teacher risk (escalation),Waymo anchor479 (473fr),473,rap ADE top10%,0.457,0.103

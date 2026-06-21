@@ -1,0 +1,8 @@
+set,detector,features,AUROC,AUPRC,note
+SparseDrive,disagreement,sig_mode_var+sig_mode_std,0.456±0.050,0.107±0.033,
+SparseDrive,native,sig_entropy+sig_margin,0.554±0.063,0.118±0.025,
+SparseDrive,fused,sig_mode_var+sig_mode_std+sig_entropy+sig_margin,0.614±0.028,0.166±0.051,
+DiffusionDrive,disagreement,sig_mode_var+sig_mode_std,0.516±0.072,0.116±0.024,
+DiffusionDrive,native,sig_entropy+sig_margin,0.610±0.030,0.184±0.034,
+DiffusionDrive,fused,sig_mode_var+sig_mode_std+sig_entropy+sig_margin,0.603±0.034,0.180±0.036,
+VAD-Base,-,-,N/A,N/A,single-mode: no native/disagreement signal
