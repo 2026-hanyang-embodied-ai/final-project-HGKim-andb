@@ -14,7 +14,7 @@ closed-loop switching).
 | Slides | [`deliverables/Failure_Aware_Slides.pdf`](deliverables/Failure_Aware_Slides.pdf) |
 | Report | `deliverables/report.pdf` _(TODO: compile from Overleaf)_ |
 | Dataset | _TODO: Google Drive URL (upload `dataset.zip`)_ |
-| Demo video | https://youtu.be/zz4gnZANk2w _(included within the presentation)_ |
+| Demo video | https://www.youtube.com/watch?v=Hcc6yU0uTII |
 
 *Demo video shows the hardest nuScenes-val scenes (front camera) with a red **DETECTOR FLAG**
 on frames our detector predicts as failures (out-of-fold), then easy moving scenes where it
